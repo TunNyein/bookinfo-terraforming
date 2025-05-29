@@ -45,7 +45,7 @@ resource "kubernetes_service_account" "reviews" {
     name = var.service_account_name
     namespace = data.terraform_remote_state.namespace.outputs.namespace_name
     labels = {
-      account = app_label
+      account = var.app_label
     }
   }
 }
@@ -178,7 +178,7 @@ resource "kubernetes_deployment" "reviews_v2" {
           }
 
           volume_mount {
-            name = wlp-output
+            name = "wlp-output"
             mount_path = "/opt/ibm/wlp/output"
           }
         
