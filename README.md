@@ -5,7 +5,8 @@ In this lab, the **Istio Bookinfo microservices** will be deployed to a **local 
 
 Workflow
 
-![Screenshot from 2025-05-31 09-31-55](https://github.com/user-attachments/assets/27c0e2aa-661d-49bb-8136-18fc35c9f30c)
+![Screenshot from 2025-05-31 09-35-52](https://github.com/user-attachments/assets/e9242e0d-e94a-4cbd-b1c6-161c449dcb07)
+
 
 
 ---
