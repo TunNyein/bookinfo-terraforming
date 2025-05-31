@@ -3,6 +3,11 @@
 
 In this lab, the **Istio Bookinfo microservices** will be deployed to a **local Kubernetes cluster** (running in Vagrant) using **HCP Terraform**, with **one Terraform Cloud workspace per microservice**.
 
+Workflow
+
+![Screenshot from 2025-05-31 09-31-55](https://github.com/user-attachments/assets/27c0e2aa-661d-49bb-8136-18fc35c9f30c)
+
+
 ---
 
 ## ✅ Requirements
